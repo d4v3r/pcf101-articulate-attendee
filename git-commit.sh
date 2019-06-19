@@ -2,4 +2,4 @@
 
 git add .
 git commit -m "Commit Changes...."
-git push https://github.com/AhilanPonnusamy/pcf101-articulate-attendee.git/
+git push https://github.com/d4v3r/pcf101-articulate-attendee
