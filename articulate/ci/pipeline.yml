@@ -13,11 +13,11 @@ jobs:
   #1. Get source code from repo like Git
   - get: resource-git
     trigger: true
-  
+
   #2. Build it with unit tests embedded
   - task: build-artifacts
     file: resource-git/articulate/ci/tasks/build.yml
-  
+
   # Deploy Artifact
   - task: deploy
     file: resource-git/articulate/ci/tasks/deploy.yml
@@ -31,11 +31,11 @@ jobs:
       app_host: {{app-host}}
       domain: {{pcf-domain}}
 #  - put: resource-pcf
-#    params: 
+#    params:
 #      manifest: resource-git/articulate/manifest-v2.yml
 #      path: artifacts/articulate-*.jar
 #      current_app_name: ((app-name))
-  
+
   # Deploy Artifact
   - task: deploy-Cloud2
     file: resource-git/articulate/ci/tasks/deploy.yml
@@ -57,7 +57,7 @@ jobs:
   #- put: resource-pcf
   #  params:
   #    manifest: resource-git/attendee/manifest.yml
-  #    path: artifacts/attendee-*.jar   
+  #    path: artifacts/attendee-*.jar
 
   # Verify the app whether it's been successfully deployed
   # - get: image-javagradlegitpack
@@ -73,7 +73,7 @@ resources:
 - name: resource-git
   type: git
   source:
-    uri: https://github.com/AhilanPonnusamy/pcf101-articulate-attendee
+    uri: https://github.com/d4v3r/pcf101-articulate-attendee
     branch: master
 
 # CF
