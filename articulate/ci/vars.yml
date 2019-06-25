@@ -5,7 +5,7 @@ pcf-api: api.run.haas-234.pez.pivotal.io
 pcf-username: admin
 pcf-password: C2DU95hHMNx8Fgby8O9mEgRg17_eU_SS
 pcf-domain: cfapps.haas-234.pez.pivotal.io
-pcf-organization: DHS
+pcf-organization: UTD
 pcf-space: dev
 
 cloud2-app-name: articulate
@@ -15,5 +15,5 @@ cloud2-pcf-api: api.sys.pcf.aws.pcfjourney.com
 cloud2-pcf-username: admin
 cloud2-pcf-password: oTDqIAcy0iqOvCCfmY6p9tPEhktLOzf-
 cloud2-pcf-domain: apps.pcf.aws.pcfjourney.com
-cloud2-pcf-organization: DHS
+cloud2-pcf-organization: UTD
 cloud2-pcf-space: dev
